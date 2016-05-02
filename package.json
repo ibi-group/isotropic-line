@@ -10,6 +10,7 @@
         "retainLines": true,
         "sourceMaps": "inline"
     },
+    "bugs": "https://github.com/ibi-group/isotropic-line/issues",
     "contributors": [
         "Duane Sibilly <duane.sibilly@ibigroup.com>"
     ],
@@ -44,9 +45,11 @@
         },
         "root": true
     },
+    "homepage": "https://github.com/ibi-group/isotropic-line",
     "license": "BSD-3-Clause",
     "main": "lib/line.js",
     "name": "isotropic-line",
+    "repository": "ibi-group/isotropic-line",
     "scripts": {
         "build": "babel js -d lib",
         "lint": "eslint js test",
